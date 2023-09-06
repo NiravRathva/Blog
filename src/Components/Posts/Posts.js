@@ -8,8 +8,6 @@ const Posts = () => {
    <Link to="/blog/:id" className="link"><Post/></Link>
    <Link to="/blog/:id" className="link"><Post/></Link>
    <Link to="/blog/:id" className="link"><Post/></Link>
-   
-    
   </div>
   )
 }

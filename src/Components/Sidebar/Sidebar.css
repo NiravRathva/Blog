@@ -64,3 +64,27 @@
     font-size: 16px;
     margin-left: 10px;
   }
+
+  @media (max-width: 768px) {
+    .sidebar {
+      flex: 1; 
+      margin: 10px; 
+    }
+  
+    .sidebarItem {
+      align-items: flex-start; 
+    }
+  
+    .sidebarTitle {
+      width: 100%; 
+    }
+  
+    .sidebarItem > img {
+      width: 100%;
+      height: auto; 
+    }
+  
+    .sidebarItem > p {
+      padding: 10px;
+    }
+  }
